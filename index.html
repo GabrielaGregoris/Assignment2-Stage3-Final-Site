@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Your Day! - Delicious Handmade Cakes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-square">
+                    <span class="logo-text">cake your day!</span>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link active">Cakes</a></li>
+                    <li><a href="#classes" class="nav-link">Classes</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-image">
+                <img id="animation-image" src="assets/cake_sequence_png/ezgif-frame-001.png" alt=" delicious multi-layered cake" class="cake-image">
+            </div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Cake Your Day</h1>
+                    <p class="hero-description">
+                        For our cakes we always use only the natural ingredients. Our production is 100% handmade.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#products" class="cta-button">View Our Cakes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery About Section -->
+        <section id="gallery-about" class="gallery-about-section">
+            <div class="gallery-about-container">
+                <!-- Left Column: Image Grid -->
+                <div class="gallery-grid">
+                    <div class="gallery-image">
+                        <img src="assets/pear-cake.jpeg" alt="Pear cake" class="gallery-img">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="assets/macaron-cake.jpeg" alt="Macaron cake" class="gallery-img">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="assets/IMG_2477.jpeg" alt="Cake" class="gallery-img">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="assets/3cakes.jpeg" alt="Three cakes" class="gallery-img">
+                    </div>
+                </div>
+                <!-- Right Column: About Content -->
+                <div class="about-content">
+                    <h2 class="about-title">About Cake Your Day</h2>
+                    <p class="about-description">
+                        At Cake Your Day, we believe every celebration deserves something special. Our bakery is dedicated to creating handcrafted cakes using only the finest natural ingredients. With a passion for both traditional techniques and innovative designs, we bring your sweetest dreams to life, one delicious slice at a time.
+                    </p>
+                    <div class="mascot-video-container">
+                        <video class="mascot-video" muted loop playsinline>
+                            <source src="assets/Mascot.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products/Gallery Section -->
+        <section id="products" class="products-section">
+            <div class="products-container">
+                <h2 class="section-title">Cakes</h2>
+                <p class="section-description">
+                    Here you can see different categories for any occasions. Click on the right category to find Cake of your dreams.
+                </p>
+                <div class="products-grid">
+                    <!-- Product 1: Strawberry Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/strawberry.glb" alt="Strawberry cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Strawberry Cake</h3>
+                            <p class="product-description">Fresh, juicy strawberries layered in our signature vanilla sponge cake. A classic favorite made with natural ingredients and topped with fresh berries. Perfect for spring and summer celebrations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Wedding Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/wedding-cake.glb" alt="Wedding cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Wedding Cake</h3>
+                            <p class="product-description">Elegant multi-tiered wedding cake with intricate designs and delicate decorations. Handcrafted to perfection for your special day. Custom designs and flavors available to match your wedding theme.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Flower Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/flower-cake.glb" alt="Flower cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Flower Cake</h3>
+                            <p class="product-description">Beautifully decorated cake adorned with delicate edible flowers. A stunning centerpiece perfect for garden parties, bridal showers, or any elegant celebration. Made with natural floral decorations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Chocolate Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/chocolate.glb" alt="Chocolate cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Chocolate Cake</h3>
+                            <p class="product-description">Rich, decadent chocolate cake made with premium cocoa. Layers of moist chocolate sponge with smooth chocolate ganache frosting. A classic indulgence for chocolate lovers and special occasions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Pear Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/pear-cake.glb" alt="Pear cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Pear Cake</h3>
+                            <p class="product-description">Elegant cake featuring fresh, sweet pears in a delicate vanilla base. A sophisticated flavor combination perfect for autumn celebrations or elegant afternoon tea. Light, refined, and beautifully presented.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Macarons Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/Macarons-cake.glb" alt="Macarons cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Macarons Cake</h3>
+                            <p class="product-description">A stunning cake decorated with colorful French macarons. Delicate almond meringue cookies in various flavors beautifully arranged on a classic cake base. Perfect for elegant celebrations and special occasions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 7: Black Forest Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/blackforest.glb" alt="Black Forest cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Black Forest Cake</h3>
+                            <p class="product-description">A classic German dessert featuring layers of rich chocolate sponge cake, fresh cherries, and whipped cream. Topped with chocolate shavings and cherry decorations. A timeless favorite that brings together the perfect balance of chocolate and fruit.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 8: Floral Delight Cake -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <model-viewer src="assets/flower-25.glb" alt="Floral Delight cake" camera-controls auto-rotate ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1" environment-image="neutral"></model-viewer>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Floral Delight Cake</h3>
+                            <p class="product-description">An exquisite cake adorned with an array of beautiful edible flowers. This stunning creation features delicate floral arrangements that create a garden-fresh aesthetic. Perfect for spring celebrations, bridal showers, or any occasion that calls for natural elegance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><strong>Address:</strong><br>123 Bakery Street<br>Sweet City, SC 12345</p>
+                <p><strong>Phone:</strong><br><a href="tel:+1234567890">(123) 456-7890</a></p>
+                <p><strong>Email:</strong><br><a href="mailto:info@cakeyourday.com">info@cakeyourday.com</a></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Our Cakes</a></li>
+                    <li><a href="#classes">Cake Classes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                <p>Saturday: 10:00 AM - 6:00 PM</p>
+                <p>Sunday: 11:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Cake Your Day!. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
