@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const heroHeight = heroSection.offsetHeight;
         const windowHeight = window.innerHeight;
         
-        // Calculate scroll progress through hero section - complete animation before element leaves viewport
+        // Calculate scroll progress through hero section - complete animation as it transitions to next section
         const scrollStart = heroTop;
         const scrollEnd = heroTop + heroHeight - windowHeight;
-        // Complete animation when hero section is still 20% visible (finish before it fully scrolls out)
-        const animationEnd = scrollEnd - (heroHeight * 0.2);
+        // Extend animation slightly into next section (about 25% of hero height) so it completes during transition
+        const animationEnd = scrollEnd + (heroHeight * 0.25);
         const rawProgress = (scrollTop - scrollStart) / (animationEnd - scrollStart || 1);
         const clampedProgress = Math.max(0, Math.min(1, rawProgress));
         
