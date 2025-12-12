@@ -405,7 +405,7 @@ img {
 
 /* Footer */
 .footer {
-    background-color: #B0E0E6; /* Main footer background - Light Blue */
+    background-color: #B0E0E6; /* <-- UPDATED BACKGROUND COLOR */
     padding: 60px 40px 20px;
     margin-top: 80px;
 }
@@ -470,7 +470,6 @@ img {
 }
 
 .footer-bottom {
-    background-color: #f8f8f8; /* Copyright section background - Light Grey */
     border-top: 1px solid #e0e0e0;
     padding-top: 20px;
     text-align: center;
@@ -583,4 +582,4 @@ img {
     .about-title {
         font-size: 28px;
     }
-}
+} 
