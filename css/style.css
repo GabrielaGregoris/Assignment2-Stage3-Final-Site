@@ -301,10 +301,6 @@ img {
     transform: scale(1.05);
 }
 
-/* Alternative: If video has green/blue screen, use this instead */
-/* .mascot-video {
-    filter: chroma(color=#00ff00) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
-} */
 
 /* Products Section */
 .products-section {
