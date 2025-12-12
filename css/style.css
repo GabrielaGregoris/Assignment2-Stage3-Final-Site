@@ -405,7 +405,7 @@ img {
 
 /* Footer */
 .footer {
-    background-color: #f8f8f8;
+    background-color: #B0E0E6; /* <-- UPDATED BACKGROUND COLOR */
     padding: 60px 40px 20px;
     margin-top: 80px;
 }
@@ -582,5 +582,4 @@ img {
     .about-title {
         font-size: 28px;
     }
-}
-
+} 
