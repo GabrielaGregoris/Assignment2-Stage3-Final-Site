@@ -263,7 +263,7 @@ img {
 .about-title {
     font-size: 48px;
     font-weight: 700;
-    color: #333;
+    color: #9dd0d8; /* UPDATED COLOR */
     line-height: 1.1;
 }
 
@@ -316,7 +316,7 @@ img {
 .section-title {
     font-size: 48px;
     font-weight: 700;
-    color: #333;
+    color: #9dd0d8; /* UPDATED COLOR */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -386,7 +386,7 @@ img {
 }
 
 .product-title {
-    color: #333;
+    color: #9dd0d8; /* UPDATED COLOR */
     font-size: 20px;
     font-weight: 600;
     margin: 0;
@@ -472,7 +472,7 @@ img {
 }
 
 .footer-bottom p {
-    color: #666; /* CHANGED from #999 to #666 for better contrast */
+    color: #666; 
     font-size: 14px;
 }
 
@@ -578,4 +578,4 @@ img {
     .about-title {
         font-size: 28px;
     }
-}
+} 
